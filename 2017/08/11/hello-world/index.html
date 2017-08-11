@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>大家好，欢迎来到曼珠沙华的博客 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="在这里我会分享一些自己平时遇到的问题以及解决的方案，并会分享一些平时使用频率高的代码，供大家参考 ajax数据交互123456789101112$ajax(&amp;#123;      url:&apos;&apos;,      dataType:&apos;josn&apos;,      method:&apos;post&apos;,      data:&amp;#123;        data_id:data_id,        age:age,">
+<meta property="og:type" content="article">
+<meta property="og:title" content="大家好，欢迎来到曼珠沙华的博客">
+<meta property="og:url" content="http://yoursite.com/2017/08/11/hello-world/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="在这里我会分享一些自己平时遇到的问题以及解决的方案，并会分享一些平时使用频率高的代码，供大家参考 ajax数据交互123456789101112$ajax(&amp;#123;      url:&apos;&apos;,      dataType:&apos;josn&apos;,      method:&apos;post&apos;,      data:&amp;#123;        data_id:data_id,        age:age,">
+<meta property="og:updated_time" content="2017-08-11T16:26:01.956Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="大家好，欢迎来到曼珠沙华的博客">
+<meta name="twitter:description" content="在这里我会分享一些自己平时遇到的问题以及解决的方案，并会分享一些平时使用频率高的代码，供大家参考 ajax数据交互123456789101112$ajax(&amp;#123;      url:&apos;&apos;,      dataType:&apos;josn&apos;,      method:&apos;post&apos;,      data:&amp;#123;        data_id:data_id,        age:age,">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/08/11/hello-world/" class="article-date">
+  <time datetime="2017-08-11T14:53:21.627Z" itemprop="datePublished">2017-08-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      大家好，欢迎来到曼珠沙华的博客
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>在这里我会分享一些自己平时遇到的问题以及解决的方案，并会分享一些平时使用频率高的代码，供大家参考</p>
+<h3 id="ajax数据交互"><a href="#ajax数据交互" class="headerlink" title="ajax数据交互"></a>ajax数据交互</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ajax</span>(&#123;</div><div class="line">      url:<span class="string">''</span>,</div><div class="line">      dataType:<span class="string">'josn'</span>,</div><div class="line">      method:<span class="string">'post'</span>,</div><div class="line">      data:&#123;</div><div class="line">        data_id:data_id,</div><div class="line">        age:age,</div><div class="line">      &#125;</div><div class="line">      success:<span class="keyword">function</span>(data)&#123;</div><div class="line">          console.log(data)</div><div class="line">      &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<h3 id="fetch数据交互"><a href="#fetch数据交互" class="headerlink" title="fetch数据交互"></a>fetch数据交互</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">methods: &#123;</div><div class="line">           send: <span class="function"><span class="title">function</span></span> () &#123;</div><div class="line">               fetch(<span class="string">'/api/login'</span>, &#123;</div><div class="line">                   credentials: <span class="string">'include'</span>,</div><div class="line">                   method: <span class="string">'POST'</span>,</div><div class="line">                   headers: &#123;</div><div class="line">                       <span class="string">'Content-Type'</span>: <span class="string">'application/json'</span></div><div class="line">                   &#125;,</div><div class="line">                   body: JSON.stringify(&#123;account: this.account, password: this.password&#125;)</div><div class="line">               &#125;).<span class="keyword">then</span>(res=&gt;res.text())</div><div class="line">                   .<span class="keyword">then</span>(<span class="keyword">function</span> (data) &#123;</div><div class="line">                       <span class="keyword">if</span> (data) &#123;</div><div class="line">                           localStorage._chat_user = data;</div><div class="line">                           router.push(&#123;name: <span class="string">'keep'</span>&#125;)</div><div class="line">                       &#125;</div><div class="line">                   &#125;)</div><div class="line">           &#125;</div><div class="line">       &#125;</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="爬虫系统抓取数据"><a href="#爬虫系统抓取数据" class="headerlink" title="爬虫系统抓取数据"></a>爬虫系统抓取数据</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">function</span> <span class="function"><span class="title">fetchnews</span></span>() &#123;</div><div class="line">    request.get(<span class="string">'http://news.ifeng.com/'</span>, (err, res, body) =&gt; &#123;</div><div class="line">        <span class="built_in">let</span> $ = cheerio.load(body);</div><div class="line">        <span class="built_in">let</span> data = $(<span class="string">'#box01'</span>).find(<span class="string">'.left_co3'</span>).nextAll(<span class="string">'script'</span>).eq(0).html().trim();</div><div class="line">        data = JSON.parse(data.slice(data.indexOf(<span class="string">'['</span>)));</div><div class="line">        <span class="built_in">let</span> dataall = $(<span class="string">'#box01'</span>).find(<span class="string">'.left_co3'</span>).nextAll(<span class="string">'script'</span>).eq(1).html().trim();</div><div class="line">        dataall = JSON.parse(dataall.slice(dataall.indexOf((<span class="string">'['</span>)), -1));</div><div class="line">        dataall.splice(2, 0, data);</div><div class="line">        <span class="built_in">let</span> total = 0, index = 0;</div><div class="line">        dataall.forEach(v =&gt; &#123;</div><div class="line">            total += v.length;</div><div class="line">        &#125;);</div><div class="line">        dataall.reverse().forEach((c, i) =&gt; &#123;</div><div class="line">            <span class="built_in">let</span> cate = i + 1;</div><div class="line">            c.forEach(v =&gt; &#123;</div><div class="line">                <span class="keyword">if</span> (filter.add(v.url)) &#123;</div><div class="line">                    con.query(</div><div class="line">                        <span class="string">'insert into node_news (title,url,cate,thumbnail) values (?,?,?,?)'</span>,</div><div class="line">                        [v.title, v.url, cate, v.thumbnail],</div><div class="line">                        (err, result) =&gt; &#123;</div><div class="line">                            console.log(<span class="string">'写入成功'</span>);</div><div class="line">                        &#125;</div><div class="line">                    )</div><div class="line">                &#125;</div><div class="line">                index += 1;</div><div class="line">                <span class="keyword">if</span> (index === total) &#123;</div><div class="line">                    con.end();</div><div class="line">                &#125;</div><div class="line">            &#125;)</div><div class="line">        &#125;);</div><div class="line">    &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="npm各种常见包"><a href="#npm各种常见包" class="headerlink" title="npm各种常见包"></a>npm各种常见包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ npm install express --save</div><div class="line">$ npm install cheerio --save</div><div class="line">$ npm install mysql --save</div><div class="line">$ npm install bloom-filter-x   布隆过滤器 --save</div><div class="line">$ npm install webpack --save</div><div class="line">$ npm install webpack-dev-server --save</div><div class="line">$ npm install url-loader --save</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/08/11/hello-world/" data-id="cj681g5sk0000pkopk0k9e0ny" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/08/11/hello-world/">大家好，欢迎来到曼珠沙华的博客</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
